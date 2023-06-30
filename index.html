@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- Primer formulario-->
+    <form action="" method="">
+        <p>Escolaridad:
+            <select name="Escolaridad" id="">
+                <option value="em">Médico</option>
+                <option value="nt">Nível Técnico</option>
+                <option value="ns">Nível Superior</option>
+            </select>
+        </p>
+    </form>
+
+    <input type="radio" name="cargo" value="1" checked />Gerencia
+    <input type="radio" name="cargo" value="2" />Financiero
+    <input type="radio" name="cargo" value="3" />Recepción
+    <input type="radio" name="cargo" value="4" />Administrativo
+
+    <input type="checkbox" name="area1" value="com" />Computación
+    <input type="checkbox" name="area2" value="ing" />Ingenieria
+    <input type="checkbox" name="area3" value="bio" />Biologia
+    <input type="checkbox" name="area4" value="psi" />Psicologia
+
+
+    <input type="reset" value="Borrar" />
+
+
+    <p>Observaciones:
+        <textarea name="obs" cols="20" rows="5">
+        </textarea>
+    </p>
+
+<!--Segundo formulario-->
+    <label>Escolaridad:
+        <select name="Escolaridad" id="">
+            <option value="em">Médico</option>
+            <option value="nt">Nível técnico</option>
+            <option value="ns">Nível superior</option>
+        </select>
+    </label>
+
+    <p>Datos Personales</p>
+        <label>Nombre:<input type="text" name="nombre" /></label><br />
+        <label>Cedula:<input type="text" name="cedula"></label><br />
+    <p>Datos Profecionales</p>
+        <label>Escolaridad:
+            <select name="escolaridad" id="">
+                <option value="em">Médico</option>
+                <option value="nt">Nível Técnico</option>
+                <option value="ns">Nível Superior</option>
+            </select>
+        </label>
+        <br />
+        <label>Area de Especialidad:
+            <input type="radio" name="cargo" value="1" checked>Gerencia
+            <input type="radio" name="cargo" value="2" >Financiero
+            <input type="radio" name="cargo" value="3" >Recepción
+        </label>
+
+<!--Tercer formulario-->
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label>Nombre:<input type="text" name="nombre" /></label><br />
+            <label>Cedula:<input type="text" name="cedula" /></label><br />
+        </fieldset>
+        <fieldset>
+            <legend>Datos Profecionales</legend>
+            <label>Escolaridad:
+                <select name="escolsridad" id="">
+                    <option value="em"> Médico </option>
+                    <option value="nt"> Nível Técnico </option>
+                    <option value="ns">Nível Superior </option>
+                </select>
+            </label>
+            <br />
+            <label>Area de Especialidad:
+                <input type="radio" name="cargo" value="1" checked>Gerencia
+                <input type="radio" name="cargo" value="2" >Financiero
+                <input type="radio" name="cargo" value="3" >Recepción
+            </label>
+        </fieldset>
+</body>
+</html>
